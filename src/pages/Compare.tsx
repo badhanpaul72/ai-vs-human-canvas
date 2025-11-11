@@ -173,12 +173,12 @@ const Compare = () => {
       {/* CTA */}
       <section className="py-20 px-6 relative z-10">
         <div className="container mx-auto max-w-4xl text-center space-y-6">
-          <h2 className="text-4xl font-bold">Ready to explore the gallery?</h2>
+          <h2 className="text-4xl font-bold">What's your opinion?</h2>
           <p className="text-xl text-muted-foreground">
-            See real examples of both AI and handcrafted products
+            Help us understand consumer preferences between AI and human-designed products
           </p>
-          <Button size="lg" onClick={() => navigate("/gallery")}>
-            View Product Gallery
+          <Button size="lg" onClick={() => navigate("/survey")}>
+            Share Your Opinion
           </Button>
         </div>
       </section>
