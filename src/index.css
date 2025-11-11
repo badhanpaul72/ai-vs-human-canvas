@@ -103,3 +103,39 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+/* Scroll reveal animations */
+.reveal-hidden {
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reveal-fade-up {
+  transform: translateY(50px);
+}
+
+.reveal-fade-in {
+  transform: none;
+}
+
+.reveal-scale-in {
+  transform: scale(0.9);
+}
+
+.reveal-slide-left {
+  transform: translateX(-50px);
+}
+
+.reveal-slide-right {
+  transform: translateX(50px);
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
